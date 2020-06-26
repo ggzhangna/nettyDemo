@@ -1,4 +1,4 @@
-package com.zn.bio.demo;
+package com.zn.demo.bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;

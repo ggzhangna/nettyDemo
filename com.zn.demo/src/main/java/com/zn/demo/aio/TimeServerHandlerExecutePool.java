@@ -1,4 +1,4 @@
-package com.zn.aio.demo;
+package com.zn.demo.aio;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;

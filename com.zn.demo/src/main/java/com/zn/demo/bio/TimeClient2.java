@@ -1,4 +1,4 @@
-package com.zn.bio.demo;
+package com.zn.demo.bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.net.Socket;
  * @author ggzhangna
  * @date 20/6/25
  */
-public class TimeClient {
+public class TimeClient2 {
     public static void main(String[] args) {
         int port = 8080;
         if (args != null && args.length > 0){
@@ -30,11 +30,11 @@ public class TimeClient {
             socket = new Socket("127.0.0.1",port);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(),true);
-            out.println("query time order");
+            out.println("query time order~~~");
 
-            System.out.println("send order 2 server succeed.");
+            System.out.println("send order 2 server succeed~~~.");
             String resp = in.readLine();
-            System.out.println("Now is : " + resp);
+            System.out.println("Now is :~~ " + resp);
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
